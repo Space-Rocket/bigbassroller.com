@@ -102,26 +102,26 @@ textarea {
 }
 p.all.i.got.to.say.about.myself {
     display: table;
-    font: 1vmax/1 Open Sans,Impact;
+    font: 2.5vmax/1 Open Sans,Impact;
     margin: 30px auto;
+    text-align: center;
 }
-ul.links {
-    bottom: 20px;
+.links {
+    bottom: 10px;
     display: table;
     left: 0;
     margin: 0 auto;
     padding: 0;
     position: absolute;
     right: 0;
+    width: 110px;
     vertical-align: bottom;
 }
-.links li {
+.links span {
     display: inline-block;
     list-style: outside none none;
     padding: 0 10px;
 }
-
-
 
 
 
@@ -217,6 +217,9 @@ ul.links {
 
 @media only screen and (min-width: 35em) {
     /* Style adjustments for viewports that meet the condition */
+    p.all.i.got.to.say.about.myself {
+        font: 1.25vmax/1 Open Sans,Impact;
+    }
 }
 
 @media print,
